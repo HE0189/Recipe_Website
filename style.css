@@ -28,7 +28,6 @@ img {
     display: inline-block;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 50px;
     vertical-align: middle; 
     transition: all;
 }
@@ -46,7 +45,10 @@ img {
 
 a{
     color: black;
+    display: inline-block;
+    margin: 50px;
 }
 a:active {
     color: black;
 }
+
