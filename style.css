@@ -21,7 +21,7 @@ img {
     
 }
 
-.box {
+.box,.boxs {
     width: 240px;
     border: 2px, solid, gray;
     background-color: rgb(250, 250, 250);
@@ -30,8 +30,13 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 50px;
     vertical-align: middle; 
+    transition: all;
 }
 
+.box:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 .info{
     text-align: center;
@@ -39,3 +44,9 @@ img {
     font-weight: bold;
 }
 
+a{
+    color: black;
+}
+a:active {
+    color: black;
+}
