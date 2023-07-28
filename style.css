@@ -32,6 +32,9 @@ img {
     transition: all;
 }
 
+.boxs{
+    margin: 50px;
+}
 .box:hover {
     cursor: pointer;
     opacity: 0.8;
