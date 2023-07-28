@@ -1,3 +1,7 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
 main {
     margin: 50px;
 }
@@ -24,10 +28,14 @@ img {
     display: inline-block;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+    vertical-align: middle; 
 }
 
 
 .info{
     text-align: center;
     margin: 10px;
+    font-weight: bold;
 }
+
